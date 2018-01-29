@@ -33,3 +33,8 @@ def find_route(tickets):
     path = find_route_wrker(src, src_dest)
     print('The path is %s' % (path))
     return path
+
+
+if __name__ == '__main__':
+    find_route([['a1', 'a2'], ['a3', 'a4'], ['a2', 'a3']])
+
